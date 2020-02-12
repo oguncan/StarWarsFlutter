@@ -17,7 +17,7 @@ class _FilmScreenState extends State<FilmScreen> {
   List names = new List();
   List filteredTitle = new List();
   Icon _searchIcon = new Icon(Icons.search);
-  Widget _appBarTitle = new Text('Search Example');
+  Widget _appBarTitle = new Text('Film List');
   Dio dio = Dio();
   _FilmScreenState() {
     _filmFilter.addListener(() {

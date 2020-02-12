@@ -18,7 +18,7 @@ class _PeopleScreenState extends State<PeopleScreen> {
   List names = new List();
   List filteredNames = new List();
   Icon _searchIcon = new Icon(Icons.search);
-  Widget _appBarTitle = new Text('Search Example');
+  Widget _appBarTitle = new Text('People List');
 
   _PeopleScreenState() {
     _peopleFilter.addListener(() {

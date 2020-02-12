@@ -17,7 +17,7 @@ class _SpecieScreenState extends State<SpecieScreen> {
   List names = new List();
   List filteredTitle = new List();
   Icon _searchIcon = new Icon(Icons.search);
-  Widget _appBarTitle = new Text('Search Example');
+  Widget _appBarTitle = new Text('Specie List');
   Dio dio = Dio();
   _SpecieScreenState() {
     _specieList.addListener(() {

@@ -80,8 +80,13 @@ class DetailPage extends StatelessWidget {
                           )),
                     ],
                   ),
-                  SizedBox(height: 150),
-                  Text("Merhaba")
+                  SizedBox(height: 20),
+                  Flexible(
+                    child: Text(
+                      "Opening Crawl: ${_listItems['opening_crawl']}",
+                      style: TextStyle(color: Colors.white, fontSize: 14.0),
+                    ),
+                  ),
                 ],
               )),
             ),
@@ -264,10 +269,8 @@ class DetailPage extends StatelessWidget {
                           flex: 6,
                           child: Text(
                             "Average Height: ${_listItems['average_height']}",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 20.0
-                            ),
+                            style:
+                                TextStyle(color: Colors.white, fontSize: 20.0),
                           )),
                     ],
                   ),
@@ -310,7 +313,7 @@ class DetailPage extends StatelessWidget {
                     child: new Divider(color: Colors.green),
                   ),
                   Text(
-                     "Name: ${_listItems['name']}",
+                    "Name: ${_listItems['name']}",
                     style: TextStyle(color: Colors.white, fontSize: 20.0),
                   ),
                   SizedBox(height: 10.0),
@@ -331,15 +334,12 @@ class DetailPage extends StatelessWidget {
                           flex: 6,
                           child: Text(
                             "Length: ${_listItems['length']}",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 20.0
-                            ),
+                            style:
+                                TextStyle(color: Colors.white, fontSize: 20.0),
                           )),
                     ],
                   ),
                   SizedBox(height: 150),
-                  
                 ],
               )),
             ),
@@ -407,7 +407,6 @@ class DetailPage extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: 150),
-                 
                 ],
               )),
             ),

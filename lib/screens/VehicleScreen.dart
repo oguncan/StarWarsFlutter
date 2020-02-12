@@ -17,7 +17,7 @@ class _VehicleScreenState extends State<VehicleScreen> {
   List names = new List();
   List filteredTitle = new List();
   Icon _searchIcon = new Icon(Icons.search);
-  Widget _appBarTitle = new Text('Search Example');
+  Widget _appBarTitle = new Text('Vehicle List');
   Dio dio = Dio();
   _VehicleScreenState() {
     _vehicleList.addListener(() {

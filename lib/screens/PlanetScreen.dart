@@ -17,7 +17,7 @@ class _PlanetScreenState extends State<PlanetScreen> {
   List names = new List();
   List filteredTitle = new List();
   Icon _searchIcon = new Icon(Icons.search);
-  Widget _appBarTitle = new Text('Search Example');
+  Widget _appBarTitle = new Text('Planet List');
   Dio dio = Dio();
   _PlanetScreenState() {
     _planetList.addListener(() {

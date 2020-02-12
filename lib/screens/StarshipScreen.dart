@@ -17,7 +17,7 @@ class _StarshipScreenState extends State<StarshipScreen> {
   List names = new List();
   List filteredTitle = new List();
   Icon _searchIcon = new Icon(Icons.search);
-  Widget _appBarTitle = new Text('Search Example');
+  Widget _appBarTitle = new Text('Starship List');
   Dio dio = Dio();
   _StarshipScreenState() {
     _shipList.addListener(() {
